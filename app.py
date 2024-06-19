@@ -25,3 +25,4 @@ num2 = st.number_input("Enter second number", format="%f")
 if st.button("Calculate"):
     result = calculate(operation, num1, num2)
     st.write(f"The result is: {result}")
+    log
